@@ -2,9 +2,12 @@
     <h1>Sign in </h1>
     <input placeholder="Username" type="text" required="">
     <input placeholder="Password" type="password" required="">
-    <span><button>Sign In</button>
-    <button>Sign Up</button></span>
-    <a class="follow" href="https://twitter.com/kepung" target="_blank"><i class="fa fa-twitter"></i>Follow Me</a>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet" type="text/css">
+    <span>
+        <button>Sign In</button>
+        <button>Sign Up</button>
+    </span>
+
+    <span>
+        <a href="#" target="_self" class="facebookLogin" onclick="checkLoginState(); return false;"></a>
+    </span>        
 </form>
