@@ -38,8 +38,8 @@
             } else {
                 // The person is not logged into Facebook, so we're not sure if
                 // they are logged into this app or not.
-                document.getElementById('status').innerHTML = 'Please log ' +
-                  'into Facebook.';
+                //document.getElementById('status').innerHTML = 'Please log ' +
+                 // 'into Facebook.';
                 FB.login(function (response) {
                     console.log(response);
                 }, { scope: 'public_profile,email' });
@@ -110,8 +110,6 @@
       the FB.login() function when clicked.
     -->
 
-
-    <my-app>Loading...</my-app>
     <my-login>Loading...</my-login>
 
     
